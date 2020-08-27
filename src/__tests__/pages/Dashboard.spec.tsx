@@ -252,7 +252,6 @@ describe('Dashboard', () => {
     });
 
     expect(getByText('Ao molho')).toBeTruthy();
-
     expect(queryByText('Veggie')).toBeFalsy();
 
     await act(async () => {
